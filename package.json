@@ -1,5 +1,5 @@
 {
-  "homepage": "https://19zay.github.io/a-meme-generator",
+  "homepage": "https://19zay.github.io/A-Meme-Generator",
   "name": "a-meme-generator",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
