@@ -15,7 +15,7 @@ body {
   display: flex;
   height: 40px;
   align-items: center;
-  padding: 20px; 
+  padding: 0 60px; 
 }
 .nav-img{
   height: 100%;
@@ -32,7 +32,7 @@ body {
 
 /* Main Body */
 main{
-  padding: 0px;
+  padding: 20px;
 }
 .meme-form{
   display: grid;
@@ -44,13 +44,16 @@ main{
   text-indent: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 .meme-button{
   grid-column: 1 / -1;
-  border-radius: 6px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
   border: none;
-  background: #1e3c72; 
+  background: #1e3c72;
+  height: 30px; 
   background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  
   background: linear-gradient(to right, #2a5298, #1e3c72); 
   color: white;
