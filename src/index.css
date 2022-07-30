@@ -15,7 +15,7 @@ body {
   display: flex;
   height: 40px;
   align-items: center;
-  padding: 0 60px; 
+  padding: 0 20px; 
 }
 .nav-img{
   height: 100%;
@@ -32,7 +32,7 @@ body {
 
 /* Main Body */
 main{
-  padding: 20px;
+  padding: 0px;
 }
 .meme-form{
   display: grid;
