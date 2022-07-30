@@ -11,9 +11,6 @@ export default function Navbar() {
             Meme Generator
         </h1>
         
-        <h2 className='nav-h2'>
-            React Course - Project 3
-        </h2>
     </div>
   )
 }

@@ -1,6 +1,12 @@
 body {
   margin: 0;
   padding: 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #141E30; 
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  
+  background: linear-gradient(to right, #243B55, #141E30); 
 }
 
 /* Navbar */
@@ -9,8 +15,7 @@ body {
   display: flex;
   height: 40px;
   align-items: center;
-  padding: 20px;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  padding: 20px; 
 }
 .nav-img{
   height: 100%;
@@ -22,11 +27,6 @@ body {
   font-weight: 700;
   letter-spacing: -1px;
   margin-right: auto;
-}
-.nav-h2{
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 400  ;
 }
 
 
@@ -50,7 +50,9 @@ main{
   grid-column: 1 / -1;
   border-radius: 6px;
   border: none;
-  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  background: #1e3c72; 
+  background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  
+  background: linear-gradient(to right, #2a5298, #1e3c72); 
   color: white;
   font-size: 17px;
   font-weight: 500;
