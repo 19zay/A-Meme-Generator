@@ -6,6 +6,7 @@ export default function Navbar() {
         <img 
             src="./images/troll-face.png"
             className='nav-img'
+            alt=""
         />
         <h1 className='nav-h1'>
             Meme Generator
